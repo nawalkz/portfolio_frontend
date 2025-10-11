@@ -1,14 +1,14 @@
 import React, { Suspense,lazy } from "react";
 import LoadingSpinner from "./components/LoadingSpinner";
 import ThreeBackground from "./components/ThreeBackground";
-
+ 
 const NavBar = lazy(()=>import("./components/NavBar"))
 const Hero = lazy(()=>import("./components/HeroSection"))
-const NumbersSection = lazy(()=>import("./components/NumbersSection"))
+const DownloadCV = lazy(()=>import("./components/DownloadCV"))
 const ServicesSection = lazy(()=>import("./components/ServicesSection"))
 const WhyMe = lazy(()=>import("./components/WhyMe"))
 const ProjectsSection = lazy(()=>import("./components/ProjectsSection"));
-const TestimonialsSection = lazy(()=>import("./components/TestimonialsSection"));
+const AchievementsSection = lazy(()=>import("./components/AchievementsSection"));
 const ContactSection = lazy(()=>import("./components/ContactSection"));
 const Footer = lazy(()=>import("./components/FooterSection"));
 const ButtonToTop =lazy(()=>import("./components/ButtonToTop"));
@@ -26,11 +26,11 @@ export default function App() {
         >
           <NavBar />
           <Hero />
-          <NumbersSection />
+          <DownloadCV />
           <ServicesSection />
           <WhyMe />
           <ProjectsSection />
-          <TestimonialsSection />
+          <AchievementsSection />
           <ContactSection />
           <Footer />
           <ButtonToTop />

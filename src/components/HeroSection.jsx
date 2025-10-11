@@ -8,12 +8,14 @@ import {
   personeName,
 } from "./data/constants";
 import { FaGithub, FaFacebook, FaInstagram } from "react-icons/fa";
+import { link } from "framer-motion/client";
 
 const buttons = [
-  { id: 1, icon: <FaGithub />, name: "GitHib" },
-  { id: 2, icon: <FaFacebook />, name: "Facebook" },
-  { id: 3, icon: <FaInstagram />, name: "Instagram" },
+  { id: 1, icon: <FaGithub />, name: "GitHub", link: "https://github.com/nawalkz" },
+  { id: 2, icon: <FaFacebook />, name: "Facebook", link: "https://www.facebook.com/Nawal Kz" },
+  { id: 3, icon: <FaInstagram />, name: "Instagram", link: "https://www.instagram.com/kz.nawal0" },
 ];
+
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInView, setIsInView] = useState(false);
@@ -182,17 +184,17 @@ const Hero = () => {
                     </button>
                   </div>
                   <div className="flex justify-center items-center space-x-4">
-                    {buttons.map(({ id, icon, name }) => (
-                      <button
+                    {buttons.map(({ id, icon, name, link }) => (
+                      <a
                         key={id}
-                        className="relative rounded-full p-2 border-2 ml-5 border-primary text-2xl text-primary
-                      transition-colors hover:scale-105 z-[100] 
-                      "
+                        href={link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="relative rounded-full p-2 border-2 ml-5 border-primary text-2xl text-primary transition-colors hover:scale-105 z-[100]"
                         aria-label={name}
                       >
-                        <span className="sr-only">{name}</span>
                         {icon}
-                      </button>
+                      </a>
                     ))}
                   </div>
                 </div>
