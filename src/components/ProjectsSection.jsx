@@ -6,12 +6,13 @@ const ProjectsSection = () => {
  const projects = [
   {
     id: 1,
-    title: "Point of Sale (POS) System",
+    title: "Cooperative Management System",
     description:
-      "Developed a desktop-style web application to manage product sales, orders, and payments. Implemented stock tracking and transaction history using Laravel and MySQL.",
-    picture: "/image.png",
+      "Created a complete management system for a cooperative covering sales, payments, revenues, and archives. Implemented advanced data tracking and archiving features using Laravel and MySQL.",
+    picture: "/image4.png",
     tools: ["Laravel", "MySQL", "Bootstrap", "JavaScript"],
   },
+ 
   {
     id: 2,
     title: "Library Management System",
@@ -36,12 +37,12 @@ const ProjectsSection = () => {
     picture: "/image3.png",
     tools: ["Laravel", "Bootstrap", "AJAX", "MySQL"],
   },
-  {
+   {
     id: 5,
-    title: "Cooperative Management System",
+    title: "Point of Sale (POS) System",
     description:
-      "Created a complete management system for a cooperative covering sales, payments, revenues, and archives. Implemented advanced data tracking and archiving features using Laravel and MySQL.",
-    picture: "/image4.png",
+      "Developed a desktop-style web application to manage product sales, orders, and payments. Implemented stock tracking and transaction history using Laravel and MySQL.",
+    picture: "/image.png",
     tools: ["Laravel", "MySQL", "Bootstrap", "JavaScript"],
   },
 ];

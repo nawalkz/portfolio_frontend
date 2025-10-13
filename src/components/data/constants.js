@@ -45,7 +45,7 @@ export const navItems = [
     { id: 2, title: "Why Hire Me ", href: "#whyme" },
     { id: 3, title: "Projects", href: "#projects" },
     { id: 4, title: "Achievements", href: "#achievements" },
-    { id: 5, title: "Contact Me", href: "#contact" }
+    { id: 5, title: "Contact Me", href: "#message" }
 ];
 export const navVariants = {
     open: {
@@ -62,7 +62,7 @@ export const randomNumberBetween = (min, max) => {
 };
 
 export const role = "FULLSTACK DEVELOPER".split("");
-export const description = "Junior Full-Stack Developer, graduate in digital development, passionate about creating web and desktop applications.Hands-on experience through academic and personal projects, including library management, meeting management, point of sale systems, and cooperative management.Skilled in HTML, CSS, JavaScript, PHP, Python, and Laravel.Autonomous, detail-oriented, and highly motivated with a strong ability to learn quickly.".split("");
+export const description = "Junior Full-Stack Developer, graduate in digital development, passionate about creating web applications.Hands-on experience through academic and personal projects, including library management, meeting management, point of sale systems, and cooperative management.Skilled in HTML, CSS, JavaScript, PHP, Python, and Laravel.Autonomous, detail-oriented, and highly motivated with a strong ability to learn quickly.".split("");
 export const name = "Hello , I'm".split("");
 export const personeName = "Nawal".split("");
 

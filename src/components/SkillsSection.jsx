@@ -36,7 +36,7 @@ const SkillsSection = () => {
         {skills.map(({ id, icon }) => (
           <figure
             key={id}
-            className="border-2 border-primary backdrop-blur-sm bg-white/30 w-20 h-20 flex justify-center items-center rounded-full hover:scale-110 transition-transform duration-300"
+            className="border-2 border-primary backdrop-blur-sm bg-white/30 w-20 h-20 flex justify-center items-center rounded-full transition-transform duration-300"
           >
             <img src={icon} alt="skill" className="w-12 h-12" />
           </figure>

@@ -20,7 +20,7 @@ const EducationSection = () =>{
         <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-20">
             {education.map(({id,duration,school,post}) =>(
                 <div 
-          className="border-2 border-primary backdrop-blur-sm text-white bg-white/30 p-8 rounded-3xl hover:scale-105 transition-transform duration-300"
+          className="border-2 border-primary backdrop-blur-sm text-white bg-white/30 p-8 rounded-3xl  transition-transform duration-300"
                 key={id}
                 >
                     <div className="flex items-center">
