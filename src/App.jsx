@@ -5,6 +5,7 @@ import ThreeBackground from "./components/ThreeBackground";
 const NavBar = lazy(()=>import("./components/NavBar"))
 const Hero = lazy(()=>import("./components/HeroSection"))
 const DownloadCV = lazy(()=>import("./components/DownloadCV"))
+const PersonalSkills = lazy(()=>import("./components/PersonalSkills"))
 const ServicesSection = lazy(()=>import("./components/ServicesSection"))
 const WhyMe = lazy(()=>import("./components/WhyMe"))
 const ProjectsSection = lazy(()=>import("./components/ProjectsSection"));
@@ -27,6 +28,7 @@ export default function App() {
           <NavBar />
           <Hero />
           <DownloadCV />
+          <PersonalSkills />
           <ServicesSection />
           <WhyMe />
           <ProjectsSection />

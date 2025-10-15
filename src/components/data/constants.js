@@ -72,22 +72,23 @@ export const services = [
     {
         id: 1,
         title: "Ui/Ux Design",
-        src: "https://img.icons8.com/ios/50/66c61c/web-design.png",
+        src: "https://img.icons8.com/ios/50/00ffff/web-design.png",
         description: "Designing and building modern, responsive, and visually appealing user interfaces directly with HTML, CSS, Bootstrap, TailwindCSS, and React, focusing on clarity and user experience."
     },
     {
         id: 2,
         title: "Web Development",
-        src: "https://img.icons8.com/ios/50/66c61c/laptop-coding.png",
+        src: "https://img.icons8.com/ios/50/00ffff/laptop-coding.png",
         description: "Developing responsive and dynamic web applications using modern technologies like React, Laravel, and MySQL, ensuring both performance and security."
     },
     {
         id: 3,
         title: "Full-Stack Integration",
-        src: "https://img.icons8.com/fluency-systems-regular/50/66c61c/web-apps.png",
+        src: "https://img.icons8.com/fluency-systems-regular/50/00ffff/web-apps.png",
         description: "Connecting the front-end and back-end seamlessly through RESTful APIs and Axios for smooth, real-time communication."
     }
 ];
+
 
 export const Variants = {
     offscreen: {

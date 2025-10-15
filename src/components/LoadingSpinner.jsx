@@ -9,7 +9,7 @@ const LoadingSpinner = () => {
         height="6em"
         viewBox="0 0 24 24"
       >
-        <circle cx="12" cy="3" r="1" fill="#66c61c">
+        <circle cx="12" cy="3" r="1" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddle0"
             attributeName="r"
@@ -20,7 +20,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="16.5" cy="4.21" r="0" fill="#66c61c">
+        <circle cx="16.5" cy="4.21" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddle1"
             attributeName="r"
@@ -31,7 +31,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="7.5" cy="4.21" r="0" fill="#66c61c">
+        <circle cx="7.5" cy="4.21" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddle2"
             attributeName="r"
@@ -42,7 +42,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="19.79" cy="7.5" r="0" fill="#66c61c">
+        <circle cx="19.79" cy="7.5" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddle3"
             attributeName="r"
@@ -53,7 +53,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="4.21" cy="7.5" r="0" fill="#66c61c">
+        <circle cx="4.21" cy="7.5" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddle4"
             attributeName="r"
@@ -64,7 +64,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="21" cy="12" r="0" fill="#66c61c">
+        <circle cx="21" cy="12" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddle5"
             attributeName="r"
@@ -75,7 +75,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="3" cy="12" r="0" fill="#66c61c">
+        <circle cx="3" cy="12" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddle6"
             attributeName="r"
@@ -86,7 +86,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="19.79" cy="16.5" r="0" fill="#66c61c">
+        <circle cx="19.79" cy="16.5" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddle7"
             attributeName="r"
@@ -97,7 +97,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="4.21" cy="16.5" r="0" fill="#66c61c">
+        <circle cx="4.21" cy="16.5" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddle8"
             attributeName="r"
@@ -108,7 +108,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="16.5" cy="19.79" r="0" fill="#66c61c">
+        <circle cx="16.5" cy="19.79" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddle9"
             attributeName="r"
@@ -119,7 +119,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="7.5" cy="19.79" r="0" fill="#66c61c">
+        <circle cx="7.5" cy="19.79" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddlea"
             attributeName="r"
@@ -130,7 +130,7 @@ const LoadingSpinner = () => {
             values="0;2;0"
           />
         </circle>
-        <circle cx="12" cy="21" r="0" fill="#66c61c">
+        <circle cx="12" cy="21" r="0" fill="#00FFFF">
           <animate
             id="svgSpinners6DotsScaleMiddleb"
             attributeName="r"

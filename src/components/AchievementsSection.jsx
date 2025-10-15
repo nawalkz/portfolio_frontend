@@ -22,7 +22,7 @@ const Achievements = [
     title: "Team Project – Travel Management Application",
     description:
       "Built a collaborative application with dynamic filters and booking features, improving user interaction and UI responsiveness.",
-    icon: "https://img.icons8.com/color/96/travel.png",
+icon: "https://img.icons8.com/color/96/tour-bus.png",
   },
 ];
 

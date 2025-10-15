@@ -78,7 +78,7 @@ const ProjectsSection = () => {
             <img
               width={50}
               height={50}
-              src="https://img.icons8.com/ios-filled/50/66c61c/circled-chevron-left.png"
+              src="https://img.icons8.com/ios-filled/50/00FFFF/circled-chevron-left.png"
               alt="circled-chevron-left"
             />
           </button>
@@ -90,7 +90,7 @@ const ProjectsSection = () => {
             <img
               width={50}
               height={50}
-              src="https://img.icons8.com/ios-filled/50/66c61c/circled-chevron-right.png"
+              src="https://img.icons8.com/ios-filled/50/00FFFF/circled-chevron-right.png"
               alt="circled-chevron-right"
             />
           </button>
